@@ -35,6 +35,17 @@ function copyEmail() {
 
 
 
-document.getElementById("github-link").href = "https://git" + "hub.com/pal4real";
-document.getElementById("linkedin-link").href = "https://www.linked" + "in.com/in/nauval-radithya-3a8512324";
-document.getElementById("bandcamp-link").href = "https://thegabuts" + ".bandcamp.com";
+const githubLink = document.getElementById("github-link");
+if (githubLink) {
+    githubLink.href = "https://git" + "hub.com/pal4real";
+}
+
+const linkedinLink = document.getElementById("linkedin-link");
+if (linkedinLink) {
+    linkedinLink.href = "https://www.linked" + "in.com/in/nauval-radithya-3a8512324";
+}
+
+const bandcampLink = document.getElementById("bandcamp-link");
+if (bandcampLink) {
+    bandcampLink.href = "https://thegabuts.bandcamp.com";
+}
